@@ -14,7 +14,7 @@ new Vue({
     }, // end startGame
 
     attack: function() {
-      damage = this.this.calculateDamage(3, 10) // damage to monster
+      damage = this.calculateDamage(3, 10) // damage to monster
       this.monsterHealth -= damage
       this.turns.unshift({
         isPlayer: true,
