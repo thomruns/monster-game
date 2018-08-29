@@ -37,13 +37,13 @@
 }
 
 .log ul .player-turn {
-    color: blue;
-    background-color: #e4e8ff;
+    color: rgb(0, 98, 128);
+    background-color: #d5daf8;
 }
 
 .log ul .monster-turn {
-    color: red;
-    background-color: #ffc0c1;
+    color: green;
+    background-color: #c0ffce;
 }
 
 button {
