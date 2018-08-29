@@ -29,7 +29,12 @@ new Vue({
     }, // end specialAttack
 
     heal: function() {
-      console.log('Heal :)')
+      if (this.playerHealth <= 90) {
+        this.playerHealth += 10
+      } else {
+        this.playerHealth = 100
+      }
+      this.monsterAttacks()
     }, // end heal
 
     giveUp: function() {
@@ -63,6 +68,6 @@ new Vue({
       }
       return false
     } // end checkWin
-    
+
   } // end methods)
 }) // end Vue instance
