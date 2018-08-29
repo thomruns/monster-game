@@ -5,8 +5,9 @@
 .healthbar {
     width: 80%;
     height: 40px;
-    background-color: #eee;
+    background-color: rgba(245, 6, 6, 0.863);
     margin: auto;
+    border-radius: 8px;
     transition: width 500ms;
 }
 
